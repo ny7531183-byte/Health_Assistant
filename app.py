@@ -6,7 +6,9 @@
 
 import streamlit as st
 import os 
-from diet import bmi_calculator,bmr_calculator,tdee_calculator,calorie_target #here we import formula
+from diet import bmi_calculator,bmr_calculator,tdee_calculator,calorie_target #here we import 
+
+st.set_page_config(layout="wide")
 
 # st.set_page_config(page_title="Health Assistant",page_icon="😊",layout="wide")
 
